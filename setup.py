@@ -6,6 +6,8 @@ Flask support for PyNgrok to expose local web server.
 """
 from setuptools import setup
 
+with open('README.md', 'r') as readme:
+    LONG_DESCRIPTION = readme.read()
 
 setup(
     name='Flask-PyNgrok',
@@ -15,7 +17,8 @@ setup(
     author='Siddhant Shrivastav',
     author_email='siddhantshrivastava@outlook.com',
     description='Add tunneling support to your Flask Application.',
-    long_description=__doc__,
+    long_description=LONG_DESCRIPTION,
+    long_description_content_type = 'text/markdown' 
     packages=['flask_pyngrok'],
     zip_safe=False,
     include_package_data=True,
