@@ -11,7 +11,7 @@ with open('README.md', 'r') as readme:
 
 setup(
     name='Flask-PyNgrok',
-    version='1.0.2',
+    version='1.0.3',
     url='',
     license='MIT',
     author='Siddhant Shrivastav',
