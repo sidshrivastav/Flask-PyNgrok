@@ -9,7 +9,7 @@ from setuptools import setup
 
 setup(
     name='Flask-PyNgrok',
-    version='1.0.1',
+    version='1.0.2',
     url='',
     license='MIT',
     author='Siddhant Shrivastav',
