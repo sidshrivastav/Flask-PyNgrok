@@ -18,7 +18,7 @@ setup(
     author_email='siddhantshrivastava@outlook.com',
     description='Add tunneling support to your Flask Application.',
     long_description=LONG_DESCRIPTION,
-    long_description_content_type = 'text/markdown' 
+    long_description_content_type = 'text/markdown',
     packages=['flask_pyngrok'],
     zip_safe=False,
     include_package_data=True,
