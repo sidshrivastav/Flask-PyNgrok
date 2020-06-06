@@ -11,7 +11,7 @@ setup(
     name='Flask-PyNgrok',
     version='1.0',
     url='',
-    license='BSD',
+    license='MIT',
     author='Siddhant Shrivastav',
     author_email='siddhantshrivastava@outlook.com',
     description='Add tunneling support to your Flask Application.',
