@@ -12,7 +12,7 @@ with open('README.md', 'r') as readme:
 setup(
     name='Flask-PyNgrok',
     version='1.0.3',
-    url='',
+    url='https://github.com/sidshrivastav/Flask-PyNgrok',
     license='MIT',
     author='Siddhant Shrivastav',
     author_email='siddhantshrivastava@outlook.com',
