@@ -13,7 +13,7 @@ Basic Usage
 -----------
 
 Flask setting required `FLASK_ENV=development`:
-    
+
     from Flask-PyNgrok import PyNgrok
     pyngrok = PyNgrok()
 
@@ -29,4 +29,3 @@ License
 -------
 
 Flask-PyNgrok is distributed under MIT license, see LICENSE for more details.
-
