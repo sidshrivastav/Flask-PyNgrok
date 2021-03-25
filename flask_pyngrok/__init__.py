@@ -20,7 +20,7 @@ class PyNgrok(object):
                 if "--port" in sys.argv
                 else 5000  # noqa
             )
-            public_url = ngrok.connect(port)
+            public_url = ngrok.connect(port).public_url
             print(
                 ' * ngrok tunnel "{}" -> "http://127.0.0.1:{}/"'.format(
                     public_url, port

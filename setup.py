@@ -11,7 +11,7 @@ with open("README.md", "r") as readme:
 
 setup(
     name="Flask-PyNgrok",
-    version="1.0.3",
+    version="1.1.0",
     url="https://github.com/sidshrivastav/Flask-PyNgrok",
     license="MIT",
     author="Siddhant Shrivastav",
@@ -23,7 +23,7 @@ setup(
     zip_safe=False,
     include_package_data=True,
     platforms="any",
-    install_requires=["Flask", "pyngrok"],
+    install_requires=["Flask", "pyngrok>=5.0.0"],
     classifiers=[
         "Environment :: Web Environment",
         "Intended Audience :: Developers",
